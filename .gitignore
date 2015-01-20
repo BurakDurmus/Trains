@@ -1,35 +1,14 @@
-# compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# ignore all bin directories
+# matches bin in any subfolder
+bin/
 
-# packages #
-############
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# ignore all target directories
+target/
 
-# logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+# ignore all files ending with ~
+*~
 
-# os generated files #
-######################
-.ds_store
-.ds_store?
-._*
-.spotlight-v100
-.trashes
-ehthumbs.db
-thumbs.db
+.settings/
+build/
+.project/
+.classpath
